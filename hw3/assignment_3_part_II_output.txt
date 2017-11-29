@@ -1,0 +1,17 @@
+Linear Kernel
+Accuracy = 0.8398058252427184
+
+Quadratic Kernel
+Accuracy = 0.912621359223301
+
+Gaussian Kernel
+Spread = .5, Accuracy = 0.9514563106796117 
+Spread = .75, Accuracy = 0.9563106796116505
+Spread = .9, Accuracy = 0.9611650485436893
+Spread = 1, Accuracy = 0.9514563106796117
+Spread = 2, Accuracy = 0.941747572815534
+Spread = 3, Accuracy = 0.8980582524271845
+Spread = 4, Accuracy = 0.8980582524271845
+Spread = 5, Accuracy = 0.8932038834951457
+
+Highest accuracy with spread = .9

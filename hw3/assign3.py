@@ -75,7 +75,7 @@ def main(training_f, test_f, epsilon, eta):
 
 	#Predict classes for each x
 	predictions = []
-	X = training[:,:len(training.T) - 1]
+	X = test[:,:len(test.T) - 1]
 	ones = np.array([[1] for i in range(len(X))])
 	X = np.concatenate((X, ones), axis=1)
 
@@ -89,7 +89,7 @@ def main(training_f, test_f, epsilon, eta):
 
 	#Test accuracy of predictions
 	count = 0.0
-	Y = training[:,len(training.T) - 1]
+	Y = test[:,len(test.T) - 1]
 	for i in range(len(Y)):
 		if Y[i] == predictions[i]:
 			count +=1
